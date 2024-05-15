@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin: auto;
+     width: fit-content;
+    background-color: white;
+    padding: 30px;
+    margin-top: 130px;
+    border-radius: 10px;
+}
+
+.header .signup{
+       font-size: 32px;
+       color: purple;
+       font-weight: 900;
+}
+   hr{
+    width: 60px;
+    height: 5px;
+    background-color: purple;
+    margin-left: 22px;
+    margin-top: 5px;
+    border: none;
+   }
+.header{
+    margin-bottom: 30px;
+}
+
+input{
+    background:transparent;
+    border: none;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+.input{
+    height: 45px;
+    width: 300px;
+    background-color: rgb(212, 206, 206);
+    margin-bottom: 20px;
+    display: flex;
+    gap: 7px;
+    align-items: center;  
+    padding: 8px;
+    border-radius: 8px;
+}
+.submit-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.submit{
+    height: 35px;
+    width: 130px;
+    background-color: purple;
+    text-align: center;
+    padding: 8px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.lost-pass{
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.lost-pass span{
+    cursor: pointer;
+    color: rgb(63, 63, 245);
+}
+.gray{
+    background: #EAEAEA;
+    color: #676767;
+}
+

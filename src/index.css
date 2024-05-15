@@ -1,0 +1,13 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background: linear-gradient(#833ab4,#fd1d1d);
+ /*background-image: url(../src/assets/img1.jpeg);*/
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ overflow-y: hidden;
+ 
+}
